@@ -13,7 +13,7 @@ function deltaEncode(from, to) {
   var count = tx.length;
   
   for (var idx = 0; idx < count; idx++) {
-    var text = tx[count][1];
+    var text = tx[idx][1];
     switch (tx[idx][0]) {
 
       case -1:  // deletion
