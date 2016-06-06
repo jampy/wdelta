@@ -31,7 +31,7 @@ function deltaEncode(from, to) {
       default:
         throw new Error("Unknown diff type (" + type + ")")
     }
-  });
+  }
 
   return diff.join(",");
 }
