@@ -78,7 +78,7 @@ function deltaDecode(from, delta) {
       case "E":
       {
         var len = getNumberToDelimiter(',');
-        outData += refData.substr(inPos, len);
+        outData += from.substr(inPos, len);
         inPos += len;
         break;
       }
